@@ -1,0 +1,166 @@
+* {
+  letter-spacing: 1px;
+}
+
+.wrapper {
+  margin: 99px auto;
+  width: 560px;
+}
+
+.tab-card {
+  background-clip: border-box;
+  background-color: #fff;
+  border: 1px solid #0000001f;
+  border-radius: 0 0 1px 1px;
+  border-top: none;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  padding: 35px 25px 30px 25px;
+  position: relative;
+  word-wrap: break-word;
+}
+
+.tab-name {
+  text-align: center;
+  width: 140px;
+}
+
+.tab-name:hover {
+  cursor: pointer;
+}
+
+.card-pd {
+  margin: 15px 12px;
+}
+
+.clear-list-style {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.modal-dialog {
+  padding-bottom: 151px;
+}
+
+.modal-content {
+  margin: -10px -30px;
+  min-width: 560px;
+  position: relative;
+  top: 80px;
+}
+
+.card-pd > .modal-footer > * {
+  margin-top: 10px;
+}
+
+.position-of-error {
+  position: relative;
+  top: 330px;
+}
+
+.label {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.label-mg {
+  margin-top: 17px;
+}
+
+.form-control {
+  max-height: 326px;
+}
+
+.checkbox {
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.label-checkbox {
+  font-size: 18px;
+  position: relative;
+  text-transform: uppercase;
+  top: 1px;
+}
+
+.btn {
+  margin-top: 20px;
+}
+
+.service-btn {
+  margin-top: 5px;
+}
+
+.full-of-width-btn {
+  width: 100%;
+}
+
+.half-of-width-btn {
+  width: 48.78%;
+}
+
+.one-third-of-width-btn {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.left-btn {
+  margin-right: 7px;
+}
+
+.error-btn {
+  float: right;
+  margin-top: -5px;
+  width: 30%;
+}
+
+.no-text-transform {
+  text-transform: none;
+}
+
+.service-mg {
+  margin-bottom: 15px;
+}
+
+.image-download-btn {
+  font-size: 18px;
+  font-style: italic;
+}
+
+.save-text-item {
+  font-size: 18px;
+}
+
+.image-size {
+  height: 210px;
+  width: 157px;
+}
+
+.image-item,
+.save-image-item {
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.image-items {
+  margin-bottom: 15px;
+}
+
+.image-item:first-child,
+.image-item:nth-child(even),
+.save-image-item:first-child,
+.save-image-item:nth-child(even) {
+  margin-right: 15px;
+}
+
+.service-items {
+  margin-bottom: 4px;
+  padding-left: 20px;
+}
+
+.save-service-item {
+  list-style-type: circle;
+  margin-top: 2px;
+}
