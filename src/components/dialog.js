@@ -24,7 +24,7 @@ const Dialog = ({
   return (
     <>
       <SuccessBtn
-        className="half-of-width-btn service-btn label-mg"
+        className="half-width-btn service-btn label-mg"
         onClick={toggle}
       >
         Save
@@ -67,7 +67,7 @@ const Dialog = ({
             )}
           </ModalBody>
           <ModalFooter>
-            <SecondaryBtn className="half-of-width-btn btn" onClick={toggle}>
+            <SecondaryBtn className="half-width-btn btn" onClick={toggle}>
               Okay
             </SecondaryBtn>
           </ModalFooter>

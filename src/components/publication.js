@@ -42,7 +42,7 @@ const Publication = ({
         ))}
       </ul>
       <SecondaryBtn
-        className="half-of-width-btn service-btn left-btn label-mg"
+        className="half-width-btn service-btn left-btn label-mg"
         onClick={onClickPrevTab}
       >
         Prev

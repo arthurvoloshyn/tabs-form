@@ -42,7 +42,7 @@ const Photos = ({
             </div>
             <Error error={error} toggleError={toggleError} warning={warning} />
             {imageList.length > 0 && (
-              <ul className="clear-list-style">
+              <ul className="clear-list-style btn-mg">
                 {imageList.map(({ key, ...propsImage }) => {
                   const handleImageRemove = () => onImageRemove(key);
                   return (
@@ -54,7 +54,7 @@ const Photos = ({
                       />
                       <div>
                         <DangerBtn
-                          className="one-third-of-width-btn"
+                          className="one-third-width-btn"
                           onClick={handleImageRemove}
                         >
                           Remove

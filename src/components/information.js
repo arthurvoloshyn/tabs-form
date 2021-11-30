@@ -51,10 +51,7 @@ const Information = ({
         checkTitle={checkTitle}
         setChecked={onCheck}
       />
-      <PrimaryBtn
-        className="full-of-width-btn label-mg"
-        onClick={onClickNextTab}
-      >
+      <PrimaryBtn className="full-width-btn label-mg" onClick={onClickNextTab}>
         Next
       </PrimaryBtn>
     </>
