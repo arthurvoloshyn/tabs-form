@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/tabs-form/static/css/main.47be8a51.chunk.css",
+    "main.js": "/tabs-form/static/js/main.9c24c450.chunk.js",
+    "main.js.map": "/tabs-form/static/js/main.9c24c450.chunk.js.map",
+    "runtime-main.js": "/tabs-form/static/js/runtime-main.dfbd115b.js",
+    "runtime-main.js.map": "/tabs-form/static/js/runtime-main.dfbd115b.js.map",
+    "static/css/2.46f1d6ec.chunk.css": "/tabs-form/static/css/2.46f1d6ec.chunk.css",
+    "static/js/2.692bdb17.chunk.js": "/tabs-form/static/js/2.692bdb17.chunk.js",
+    "static/js/2.692bdb17.chunk.js.map": "/tabs-form/static/js/2.692bdb17.chunk.js.map",
+    "static/js/3.548b50b1.chunk.js": "/tabs-form/static/js/3.548b50b1.chunk.js",
+    "static/js/3.548b50b1.chunk.js.map": "/tabs-form/static/js/3.548b50b1.chunk.js.map",
+    "index.html": "/tabs-form/index.html",
+    "static/css/2.46f1d6ec.chunk.css.map": "/tabs-form/static/css/2.46f1d6ec.chunk.css.map",
+    "static/css/main.47be8a51.chunk.css.map": "/tabs-form/static/css/main.47be8a51.chunk.css.map",
+    "static/js/2.692bdb17.chunk.js.LICENSE.txt": "/tabs-form/static/js/2.692bdb17.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dfbd115b.js",
+    "static/css/2.46f1d6ec.chunk.css",
+    "static/js/2.692bdb17.chunk.js",
+    "static/css/main.47be8a51.chunk.css",
+    "static/js/main.9c24c450.chunk.js"
+  ]
+}
