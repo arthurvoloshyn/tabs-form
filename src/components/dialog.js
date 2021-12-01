@@ -10,7 +10,7 @@ const Dialog = ({
   checkPaidService,
   checkTitle,
   header,
-  descript,
+  descr,
   phone,
   email,
   images,
@@ -34,8 +34,8 @@ const Dialog = ({
           <ModalHeader>Your ad</ModalHeader>
           <ModalBody>
             <div className="save-text-item">Header: {header}</div>
-            {descript && (
-              <div className="save-text-item">descript: {descript}</div>
+            {descr && (
+              <div className="save-text-item">Description: {descr}</div>
             )}
             <div className="save-text-item">Phone number: {phone}</div>
             {email && <div className="save-text-item">Email: {email}</div>}
@@ -82,7 +82,7 @@ Dialog.propTypes = {
   header: PropTypes.string,
   phone: PropTypes.string,
   email: PropTypes.string,
-  descript: PropTypes.string,
+  descr: PropTypes.string,
   images: PropTypes.arrayOf(
     PropTypes.shape({
       initialImgKey: PropTypes.string,
@@ -101,7 +101,7 @@ Dialog.defaultProps = {
   header: '',
   phone: '',
   email: '',
-  descript: '',
+  descr: '',
   images: [],
   checkPaidService: [],
 };

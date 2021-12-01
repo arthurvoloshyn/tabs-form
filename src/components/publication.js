@@ -10,7 +10,7 @@ import Dialog from './dialog';
 const Publication = ({
   checkPaidService,
   checkTitle,
-  descript,
+  descr,
   email,
   onPaidService,
   header,
@@ -50,7 +50,7 @@ const Publication = ({
       <Dialog
         checkPaidService={checkPaidService}
         checkTitle={checkTitle}
-        descript={descript}
+        descr={descr}
         email={email}
         header={header.value}
         images={images}
@@ -62,7 +62,7 @@ const Publication = ({
 
 Publication.propTypes = {
   checkTitle: PropTypes.string,
-  descript: PropTypes.string,
+  descr: PropTypes.string,
   email: PropTypes.string,
   header: PropTypes.shape({
     value: PropTypes.string,
@@ -95,7 +95,7 @@ Publication.propTypes = {
 
 Publication.defaultProps = {
   checkTitle: 'OFF',
-  descript: '',
+  descr: '',
   email: '',
   header: initialHeader,
   phone: initialPhone,

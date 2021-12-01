@@ -10,7 +10,7 @@ import Checkbox from './checkbox';
 const Information = ({
   checked,
   checkTitle,
-  onChangeDescript,
+  onChangeDescr,
   onChangeHeader,
   onCheck,
   onCheckReqField,
@@ -41,7 +41,7 @@ const Information = ({
         <Input
           id="example-text"
           name="text"
-          onChange={onChangeDescript}
+          onChange={onChangeDescr}
           placeholder="Your description"
           type="textarea"
         />
@@ -65,7 +65,7 @@ Information.propTypes = {
     value: PropTypes.string,
     index: PropTypes.number,
   }),
-  onChangeDescript: PropTypes.func,
+  onChangeDescr: PropTypes.func,
   onChangeHeader: PropTypes.func,
   onCheck: PropTypes.func,
   onCheckReqField: PropTypes.func,
@@ -75,7 +75,7 @@ Information.defaultProps = {
   checked: false,
   checkTitle: 'OFF',
   header: initialHeader,
-  onChangeDescript: () => {},
+  onChangeDescr: () => {},
   onChangeHeader: () => {},
   onCheck: () => {},
   onCheckReqField: () => {},

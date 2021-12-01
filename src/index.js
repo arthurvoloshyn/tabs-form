@@ -1,6 +1,8 @@
 import React, { StrictMode } from 'react';
 import ReactDOM from 'react-dom';
 
+import reportWebVitals from './reportWebVitals';
+import env from './constants/environment';
 import App from './containers/app';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -12,3 +14,7 @@ ReactDOM.render(
   </StrictMode>,
   document.getElementById('root'),
 );
+
+if (env.isDev) {
+  reportWebVitals(console.log); // eslint-disable-line no-console
+}

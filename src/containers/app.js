@@ -24,7 +24,7 @@ const App = () => {
   const { activeTab, nextTab, prevTab, toggleTab } = useActiveTab();
   const [header, onChangeHeader] = useTextReqField(initialHeader);
   const [phone, onChangePhone] = useTextReqField(initialPhone);
-  const [descript, onChangeDescript] = useTextField();
+  const [descr, onChangeDescr] = useTextField();
   const [email, onChangeEmail] = useTextField();
   const { checked, onCheck, checkTitle } = useChecked();
   const { error, onCheckErrorImg, toggleError } = useError();
@@ -62,8 +62,8 @@ const App = () => {
   );
 
   const informationProps = useMemo(
-    () => ({ ...checkedProps, onChangeDescript, onChangeHeader, header }),
-    [checkedProps, onChangeDescript, onChangeHeader, header],
+    () => ({ ...checkedProps, onChangeDescr, onChangeHeader, header }),
+    [checkedProps, onChangeDescr, onChangeHeader, header],
   );
 
   const contactsProps = useMemo(
@@ -82,8 +82,8 @@ const App = () => {
   );
 
   const outputProps = useMemo(
-    () => ({ checkTitle, descript, email, header, images, paidService, phone }),
-    [checkTitle, descript, email, header, images, paidService, phone],
+    () => ({ checkTitle, descr, email, header, images, paidService, phone }),
+    [checkTitle, descr, email, header, images, paidService, phone],
   );
 
   const publicationProps = useMemo(

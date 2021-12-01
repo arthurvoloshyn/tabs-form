@@ -1,6 +1,6 @@
 {
-  "short_name": "Form-tabs Application",
-  "name": "Simple React Form-tabs Application",
+  "short_name": "Tabs Form",
+  "name": "Simple React Tabs Form Application",
   "icons": [
     {
       "src": "favicon.ico",

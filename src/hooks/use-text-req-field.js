@@ -4,7 +4,6 @@ const useTextReqField = initialTextReqField => {
   const [textReqField, setTextReqField] = useState(initialTextReqField);
 
   const onChangeTextReqField = useCallback(e => {
-    e.persist();
     setTextReqField(prevState => ({ ...prevState, value: e.target.value }));
   }, []);
 
